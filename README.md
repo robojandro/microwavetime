@@ -23,7 +23,7 @@ The decision to support inputs which are improperly formatted quantities of time
 #### Less than a minute is specified
 ```
 $ go run main.go
-Enter a cooking time:
+Input a cooking time and press enter to start:
 33
 cooking...
 00:33
@@ -35,7 +35,7 @@ cooking...
 #### Just under 2 minutes is specified in time notation
 ```
 $ go run main.go
-Enter a cooking time:
+Input a cooking time and press enter to start:
 1:59
 cooking...
 01:59
@@ -50,7 +50,7 @@ Which we'll convert to 161 seconds or 2 minutes and 41 seconds
 
 ```
 $ go run main.go
-Enter a cooking time:
+Input a cooking time and press enter to start:
 1:61
 cooking...
 02:41
@@ -61,7 +61,7 @@ cooking...
 #### Too large a quantity
 ```
 $ go run main.go
-Enter a cooking time:
+Input a cooking time and press enter to start:
 999:99
 problem trying to read input: max input is 99:99, got length of 5
 exit status 1
@@ -73,7 +73,7 @@ Ignore non-numeric input, but still try to produce a result
 
 ```
 $ go run main.go
-Enter a cooking time:
+Input a cooking time and press enter to start:
 abc:33
 cooking...
 00:33

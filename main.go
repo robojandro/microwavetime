@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Print("Enter a cooking time: \n")
+	fmt.Println("Input a cooking time and press enter to start:")
 
 	quantity, captureErr := captureInput()
 	if captureErr != nil {
