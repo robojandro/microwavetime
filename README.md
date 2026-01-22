@@ -14,9 +14,9 @@ One glaring omission which I didn't feel I had time for was unit tests.
 
 The decision to support inputs which are improperly formatted quantities of time stems from my own GE microwave supporting this IRL, though here I have opted to convert the input to its corresponding representation of minutes and seconds, which my microwave does not.
 
-![GE microwave accepts 9:99 as input](PXL_20260120_220759449.mp4)
+![GE microwave accepts 9:99 as input](microwave-accepts_nontime_value.gif)
 
-![GE microwave does not convert countdown to minutes and seconds - BUT I will](PXL_20260120_220622936.mp4)
+![GE microwave does not convert countdown to minutes and seconds - BUT I will](microwave-nonsensicle_countdown.gif)
 
 ## Example runs
 
